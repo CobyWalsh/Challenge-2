@@ -46,7 +46,7 @@ body {
   }
   
   nav a:hover {
-    color: #D90429;
+    color: #9604d9;
   }
   
   main {
@@ -62,6 +62,11 @@ body {
     background-color: hsl(51, 86%, 81%);
     border-radius: 1em;
     box-shadow: 0 0 10px #A8A8A8;
+    transition: background-color 0.3s ease;
+  }
+  
+  section:hover {
+    background-color: #555;
   }
   
   section h2 {
