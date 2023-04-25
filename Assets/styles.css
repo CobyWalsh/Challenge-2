@@ -1,3 +1,6 @@
+:root {
+  font-size: 20px;
+}
 body {
     background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
     font-family: 'Helvetica Neue', sans-serif;
@@ -95,15 +98,47 @@ body {
   }
   
   .applications {
+    border: solid 2px black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+  }
+
+  .applications > div {
+    border: solid 2px rgb(0, 0, 0);
+    width: 100%;
+    margin: 1rem;
   }
   
   .applications iframe {
     margin: 2em;
   }
   
+  .applications-banner figure {
+    width: 25%;
+  }
+
+  .applications-other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .applications-other > div {
+    width: 25%;
+    margin: 1rem 0.25rem;
+    border: solid 2px rgb(0, 0, 0);
+  }
+  .figure {
+    margin: 0.5rem 1rem;
+  }
+
+  .figure > img {
+    width: 100%;
+  }
+
   footer {
     background-color: #C6D8AF;
     padding: 1em;
