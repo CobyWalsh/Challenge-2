@@ -76,27 +76,10 @@ nav a {
   color: #2B2D42;
   text-decoration: none;
   font-size: 1.2em;
-  transition: transform 0.3s ease;
 }
 
 nav a:hover {
   color: #9604d9;
-  transform: translateY(-10px);
-  animation: bounce 0.5s;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-20px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
 }
 
 main {
@@ -182,7 +165,13 @@ section p {
   width: 100%;
 }
 
-contact
+.contact {
+transition: transform 0.3s ease;
+}
+
+.contact:hover {
+  transform: scale(1.1);
+}
 
 footer {
   background-color: #295063;
