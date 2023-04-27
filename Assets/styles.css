@@ -98,11 +98,13 @@ section {
   transition: background-color 0.3s ease;
   border: 2px solid transparent;
   transition: border 0.5s ease-out;
+  transition: transform 0.3s ease;
 }
 
 section:hover {
   background-color: #555;
-  border-color: #9604d9
+  border-color: #9604d9;
+  transform: scale(1.1);
 }
 
 section h2 {
@@ -170,6 +172,14 @@ transition: transform 0.3s ease;
 }
 
 .contact:hover {
+  transform: scale(1.1);
+}
+
+.resume {
+  transition: transform 0.3s ease;
+}
+
+.resume:hover {
   transform: scale(1.1);
 }
 
