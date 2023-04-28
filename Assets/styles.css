@@ -42,6 +42,20 @@ header:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  
+  nav {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    width: 100%;
+  }
+}
 .developer-info {
   display: flex;
   align-items: center;
@@ -148,10 +162,6 @@ section p {
   display: block;
   margin-left: 19rem;
   margin-right: auto;
-}
-
-.applications-banner img {
-  
 }
 
 .applications-other {
