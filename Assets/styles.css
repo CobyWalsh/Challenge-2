@@ -19,7 +19,7 @@ header {
   transition: border 0.5s ease-out;
   transition: transform 0.3s ease;
 }
-
+/*I added a hover element to my header. The header will turn grey and bounce when the mouse hovers over it and the links will turn purple*/
 header:hover {
   background-color: #555;
   color: #000000;
@@ -41,7 +41,7 @@ header:hover {
     transform: translateY(0px);
   }
 }
-
+/*I added a media element so my webpage would be compatible with phones*/
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -91,7 +91,7 @@ nav a {
   text-decoration: none;
   font-size: 1.2em;
 }
-
+/*This is where I added the code that turn my nav links in the header to turn purple when the mouse hovers over them*/
 nav a:hover {
   color: #9604d9;
 }
@@ -114,7 +114,7 @@ section {
   border: 2px solid transparent;
   transition: border 0.5s ease-out;
 }
-
+/*I added a box shadow element to my about me and work section so they turn grey and have a glow effect when hovered over*/
 section:hover {
   background-color: #555;
   border-color: #9604d9;
@@ -156,7 +156,7 @@ section p {
 .applications iframe {
   margin: 2em;
 }
-
+/*First image in my work section, I made sure to place it in the center*/
 .applications-banner figure {
   width: 75%;
   display: block;
@@ -187,7 +187,7 @@ section p {
 .Contact {
 transition: transform 0.3s ease;
 }
-
+/*Another hover element, the contact section will enlarge when hovered over*/
 .Contact:hover {
   transform: scale(1.1);
 }
@@ -195,7 +195,7 @@ transition: transform 0.3s ease;
 .Resume {
   transition: transform 0.3s ease;
 }
-
+/*The resume section will enlarge when hovered over*/
 .Resume:hover {
   transform: scale(1.1);
 }
