@@ -176,8 +176,10 @@ section p {
   border: solid 2px rgb(0, 0, 0);
 }
 
-.figure {
+.figure:hover .cap {
   margin: 0.5rem 1rem;
+  display: block;
+
 }
 
 .figure>img {
